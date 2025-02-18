@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(235, 178, 104);
+}
+
+.name{
+    background-color: wheat;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    padding-left: 300px;
+    gap: 80px;
+}
+
+.dog {
+    text-align: center;
+    background: wheat;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.cat {
+    text-align: center;
+    background: wheat;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.quotes {
+    text-align: center;
+    background: wheat;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+button{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: green;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: larger;
+    cursor: pointer;
+}
