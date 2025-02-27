@@ -1,17 +1,11 @@
-async function getDog(){
-    const response = await fetch('https://dog.ceo/api/breeds/image/random');
-    const data = await response.json();
-    document.getElementById('dogImage').src = data.message;
+function cat() {
+    window.location.href = 'CAT_api/cat.html';
 }
 
-async function getCat(){
-    const response = await fetch('https://api.thecatapi.com/v1/images/search');
-    const data = await response.json();
-    document.getElementById('catImage').src = data[0].url;
+function dog() {
+    window.location.href = 'DOG_api/dog.html';
 }
 
-async function getQuotes() {
-    const response = await fetch('https://inspirobot.me/api?generate=true');
-    const data = await response.text();
-    document.getElementById('qoutesImage').src = data;
+function quotes() {
+    window.location.href = 'QUOTES_api/quotes.html';
 }
